@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" scaleShape="true" depthTest="ENABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zacharadamian.fibonaccisequence.ChartController">
+  <children>
+    <TextField fx:id="textField" layoutX="84.0" layoutY="49.0" onAction="#handleButtonAction" prefWidth="186.0" />
+    <Button id="buttonDrawChart" layoutX="84.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="32.0" prefWidth="186.0" text="Rysuj wykres" />
+    <Label layoutX="84.0" layoutY="14.0" prefWidth="186.0" text="Podaj ilość wyrażeń fibonaciego:" textAlignment="CENTER" />
+    <Label fx:id="labelStatus" alignment="CENTER" contentDisplay="CENTER" disable="false" layoutX="57.0" layoutY="141.0" prefWidth="243.0" text="" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="false" />
+  </children>
+</AnchorPane>
